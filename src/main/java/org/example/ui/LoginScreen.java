@@ -10,7 +10,7 @@ public class LoginScreen extends JFrame {
         public LoginScreen() {
             super("Login"); // Titre de la fenêtre
             this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Ferme l'application quand on ferme la fenêtre
-            this.setSize(300, 300); // Taille de la fenêtre
+            this.setSize(800, 600); // Taille de la fenêtre
             this.setLocationRelativeTo(null); // Centre la fenêtre
             this.setResizable(false); // Empêche le redimensionnement de la fenêtre
             this.setContentPane(new LoginPanel()); // il faut créer la classe LoginPanel
